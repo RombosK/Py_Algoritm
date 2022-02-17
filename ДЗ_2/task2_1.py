@@ -10,4 +10,3 @@ for i in n:
     else:
         odd += 1
 print('Чётных: %d, Нечётных: %d' % (even, odd))
-

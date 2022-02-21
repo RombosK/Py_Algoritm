@@ -3,11 +3,12 @@ num = input('Введите 3-х значное число: ')
 sum = 0
 mult = 1
 if 100 <= int(num) <= 999:
-    for _ in num:
-        sum += int(_)
-        mult *= int(_)
+    for i in num:
+        sum += int(i)
+        mult *= int(i)
     print(f'Сумма цифр числа {num}--> {sum}')
     print(f'Произведение цифр числа: {num}--> {mult}')
+
 else:
     print(f'Некорректное число')
-print()
+
